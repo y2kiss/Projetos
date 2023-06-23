@@ -1,0 +1,40 @@
+body {
+    /* background-image: url();
+    background-size: cover;  */
+    background-image: linear-gradient(to left, rgb(22, 20, 126), rgb(16, 16, 82), rgb(8, 8, 48));
+    
+}
+    
+ 
+.painel {
+    background-color: rgba(0, 0, 0, 0.37);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: garamond;
+} 
+
+.botao {
+    width: 60px;
+    height: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(51, 44, 33);
+    color: rgb(255, 255, 255);
+} 
+img{
+    animation: rotacionar 5s infinite alternate;
+
+}
+@keyframes rotacionar {
+    0%{
+        transform: rotate3d(0,1,0, 0deg);
+    }
+    100%{
+        transform: rotate3d(0,1,0, 360deg)
+}
+}

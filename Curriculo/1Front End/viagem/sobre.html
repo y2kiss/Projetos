@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senac Tur</title>
+  <link rel="stylesheet" href="estilo3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div vw class="divv">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+    <a class="navbar-brand" href="/viagem/index.html">
+      <img class="img" src="https://faculdadesenacpe.edu.br/v19/wp-content/uploads/2021/03/ico-logo.png" width="30"
+        height="30" alt=""> Senac Tur</a>
+
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"> Principal <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input id="busca" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+
+    <img class="imagemm"
+      src="data:image/png;base64,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"
+      alt="" width="" height="50">
+    <h6> Sobre o Projeto Senac Tur</h6>
+    <p>
+      Desenvolvido pela turma do curso técnico de informática, aluno:(seu nome),
+      o intuito do projeto é divulgar locais turisticos oferecidos pelo SESC.
+    </p>
+<button onclick="" class="botao">Voltar</button> 
+     
+  </div>
+
+
+
+  <div class="row bg-primary rodape" style="margin-top: 30px;">
+    <div class="col"></div>
+
+    <div class="col">
+      <h5> Redes Sociais</h5>
+      <a target="_blank" href="https://pt-br.facebook.com/">
+        <p> <i class="fa-brands fa-facebook"></i> Facebook</p>
+        <a href="https://www.instagram.com/">
+          <p> <i class="fa-brands fa-instagram"></i> Instagram</p>
+          <a href="https://www.youtube.com/">
+            <p> <i class="fa-brands fa-youtube"></i> Youtube</p>
+            <a href="https://wa.me/5544999792776">
+              <p> <i class="fa-brands fa-whatsapp"></i> Whatsapp</p>
+    </div>
+
+    <div class="col"></div>
+
+    <div class="col">
+      <h5> Contato </h5>
+      <p> <i class="fa-solid fa-envelope"></i> ciclano@gmail</p>
+      <p> <i class="fa-solid fa-phone-volume"></i> Telefone: 3432-1200</p>
+      <img alt="" width="80" height="60" src="https://www.pr.senac.br/images/logo_branco.png">
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eliseu_Visconti_-_Flores.jpg/1200px-Eliseu_Visconti_-_Flores.jpg);
+    background-size: cover;
+}
+.principal {
+    background-color: rgba(77, 73, 65, 0.404);
+    width: 700px;
+    height: 700px;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-radius: 20px;
+    /* padding-left: 30px; */
+    margin: auto;
+    text-align: center;
+
+}
+
+.frase {
+    /* padding-left: 10px; */
+    text-align: center;
+    font-family: garamond;
+    color: white;
+    font-size: 20px
+}
+
+.botao {
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    font-family: arial;
+    font-size: 15px
+}
+
+.titulo {
+    color: white;
+    font-family: garamond;
+}
+
+.foto {
+    width: 300px;
+    height: 140px;
+}

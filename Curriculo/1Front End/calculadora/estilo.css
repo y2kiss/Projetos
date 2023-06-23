@@ -1,0 +1,37 @@
+.painel{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+input{ 
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+ }
+
+#resultado{
+    font-size: 50px;
+    color: rgb(109, 177, 194);
+    
+}
+body {
+    background-image: linear-gradient(to left, rgb(97, 137, 138), rgb(108, 137, 180) ); 
+    color: white;
+}
+.botao {
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: rgba(255, 255, 255, 0.548);
+    color: black;
+}

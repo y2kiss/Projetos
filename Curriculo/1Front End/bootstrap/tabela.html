@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando tabela</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Teste de Tabela com jQuery</h1>
+    <table id="tabela" class="table table-dark">
+
+        <thead>
+            
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Endereço</th>
+                    <th>telefone</th>
+                    <th>Cidade</th>
+                </tr>
+                <tbody>
+                <tr>
+                    <th>Kaori Yamamoto</th>
+                    <th>28</th>
+                    <th>Via dei Fori Imperiali</th>
+                    <th>44 99775-0727</th>
+                    <th>Milão</th>
+                </tr>
+
+                <tr>
+                    <th>JJ</th>
+                    <th>29</th>
+                    <th>Rua Almeida</th>
+                    <th>44 98765-7538</th>
+                    <th>Maringá</th>
+                </tr>
+
+                <tr>
+                    <th>Bella</th>
+                    <th>27</th>
+                    <th>Avenida Brasil</th>
+                    <th>44 99976-7879</th>
+                    <th>Nova Londrina</th>
+                </tr>
+
+                <tr>
+                    <th>Alexia</th>
+                    <th>28</th>
+                    <th>Rua das Palmeiras</th>
+                    <th>44 9986-8945</th>
+                    <th>Maringá</th>
+                </tr>
+
+           
+
+
+
+            </tbody>
+           
+        </thead>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+   
+   
+   
+    <script
+    src="https://code.jquery.com/jquery-3.6.4.js"
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script> <font></font>
+   
+   <script>
+ $(document).ready( function () {
+    $('#tabela').DataTable();
+} );
+
+</script>
+
+<script>
+var table = new DataTable('#tabela', {
+    language:  {
+        url: 'https: //cdn.datatables.net/plug-ins/1.13.4/i18n/pt-PT.json',
+    },
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.item {
+    background: rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.coluna{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.linha{
+    grid-template-rows: 100px 300px 300px 300px;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(54, 49, 44);
+    color: white;
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid;
+    border-radius: 20px;
+}

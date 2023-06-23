@@ -1,0 +1,45 @@
+.painel {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(122, 122, 122);
+}
+.botao {
+    background-color:rgb(122, 122, 122);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+.input {
+    
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foto {
+    width: 149px;
+    height: 144px;
+    border: 1px;
+    border-radius: 100%;
+    border-style: dashed;
+}
+.icone {
+    width: 15px;
+    height: 15px;
+
+}

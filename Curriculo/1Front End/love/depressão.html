@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secreto</title>
+
+    <style>
+     body {
+        background-color: rgb(173, 142, 148);
+     }
+
+     #sim{
+        height: 40px;
+        width: 60px;
+        background-color: rgb(173, 142, 148);
+        color: white;
+        border: 2 solid white;
+        border-radius: 10px;
+        margin-left: -50px;
+     }
+     #nao{
+        position: absolute;
+        height: 40px;
+        width: 50px ;
+        text-align: center;
+        background-color: rgb(173, 142, 148);
+        border:2 solid white; 
+        border-radius: 10px;
+        margin-left: 10px;
+        color: white;
+
+    
+     }
+     #sim:hover, #nao:hover{
+        background-color: rgb(105, 59, 65);
+      
+       
+     }
+     .painel{
+        margin: auto;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        background-color: white;
+        padding-top: 20px;
+        border-radius: 20px;
+
+        box-shadow: 2px 2px 20px black;
+        margin-top: 70px;
+        font-family: arial;
+        animation: pulsar 5s alternate infinite;
+
+        @keyframes pulsar {
+            0%{
+                
+            }
+            100%{
+                box-shadow: 5px 5px 20px white;
+            }
+        }
+     }
+    </style>
+</head>
+<body>
+<div class="painel">
+    <h1>Feliz dia dos Namorados</h1>
+    <img width="200px" src="https://thumbs.dreamstime.com/b/fofo-personagem-de-desenho-animado-panda-abra%C3%A7ando-um-cora%C3%A7%C3%A3o-amoroso-ilustra%C3%A7%C3%A3o-giro-213323480.jpg" alt="">
+
+    <h2>Você quer ter o privilégio de namorar comigo?</h2>
+    <button id="sim"> Sim</button>
+    <button id="nao" onmouseover="fugir()"> Não</button>
+
+</div>
+
+    <script>
+        function fugir(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioX + "px";
+
+
+        }
+
+    </script>
+</body>
+</html>

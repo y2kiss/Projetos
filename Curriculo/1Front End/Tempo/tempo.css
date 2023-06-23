@@ -1,0 +1,52 @@
+body {
+    background-image: url(https://rare-gallery.com/uploads/posts/1160170-monochrome-night-photography-lightning-storm-atmosphere-thunder-light-cloud-weather-thunderstorm-darkness-black-and-white-monochrome-photography-phenomenon.jpg);
+    background-size: cover;
+}
+
+.painel {
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 450px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.301);
+    border-radius: 10px;
+    color: white;
+    font-family: montserrat;
+    font-size: 18px;
+}
+
+.botao {
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 70px;
+    height: 26px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* font-family: garamond; */
+    /* font-size: large; */
+}
+
+.input {
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 7px;
+    width: 220px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+} 
+
+
+
+.imgTempo {
+    animation: voltar 4s alternate infinite;
+}
+@keyframes voltar {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(-100px);
+    }
+}

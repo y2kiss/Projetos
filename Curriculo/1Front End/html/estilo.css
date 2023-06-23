@@ -1,0 +1,55 @@
+/*esta é a parte da foto */
+.foto {
+    border: 5px solid rgb(145, 87, 116);
+    border-radius: 100%;
+    width: 200px;
+}  
+
+body {
+    background-color:black; 
+   /* background-image: linear-gradient(to right, rgba(107, 103, 91, 0.842),rgba(116, 112, 103, 0.678),rgba(107, 103, 91, 0.842) );*/
+color: white;
+    text-align: center;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.menu { 
+background-color: rgb(0, 0, 0);
+border-radius: 15px; 
+   
+}
+
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+color: rgb(185, 106, 130);
+padding: 20px;
+display: inline-block;
+text-decoration: none;
+
+}
+.menu ul li a:hover {
+background-color: rgb(70, 67, 68);
+font-size: 20px;
+border: 2px solid rgb(190, 127, 169);
+border-radius:10px;
+/*transition-duration: 1s;*/
+
+}
+.tabela {
+    text-align: left;
+background-color:rgb(204, 130, 161);
+color:aliceblue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0 auto;
+}
+.tabela tr td:hover{
+    font-size: 20px;
+    color:rgb(148, 78, 136)
+
+}
