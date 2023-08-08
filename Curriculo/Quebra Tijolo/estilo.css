@@ -1,5 +1,5 @@
 #gameCanvas{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     width: 800px;
     height: 600px;
       
@@ -8,9 +8,96 @@
     width: 800px;
     height: 600px;
     margin: 40px auto;  
-    background-color: white;                     
+    /* background-color: rgba(255, 255, 255, 0.836);     */
+    background-image: url(florest.avif);
+    background-size: cover;
+    border: solid 1px white;                 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 }
 body {
-    background-color: rgb(126, 126, 126);
+     background-color: #882dc5; 
+    /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.NEjTURzqPZmATGpZRWf6OAHaEK&pid=Api&P=0&h=180);
+    background-size: cover; */
+}
+.titulo {
+    color: white;
+    text-align: center;
+}
+.gameover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+    display: none;   
+}
+.mensagemGameover{
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    
+}
+
+
+
+button{
+    background-color: rgb(89, 12, 190);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 80px;
+    
+}
+.foto{
+    width: 350px;
+}
+.vitoria{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(104, 15, 155);
+    z-index: 9999;
+    display: none;     
+}
+.mensagemVitoria{
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    animation: piscar 4s alternate infinite;
+}
+@keyframes piscar{
+    0%{ color:rgb(123, 100, 153)}
+    100%{ columns: white;}
+}
+.trofeu {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.score {
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    margin-left: 340px;
+}
+.botao{
+    background-color: rgb(89, 12, 190);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    width: 100px;
+    
 }
