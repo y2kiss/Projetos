@@ -1,0 +1,44 @@
+.painel{
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(https://img.myloview.com.br/posters/moldura-e-bordas-moldura-quadrada-preto-e-branco-ilustracao-vetorial-700-116204928.jpg);
+    background-size: 700px;
+    height: 700px;
+    width: 700px;
+    text-align: center;
+    /* margin-top: 80px;
+    margin-left: 600px; */
+    border: 1px;
+    border-radius: 15px;
+    font-family: Snell Roundhand, cursive;
+   
+    
+}
+body{
+    /* background-image: url(https://jornalismorio.espm.br/wp-content/uploads/2020/09/pexels-min-an-694740-394x218.jpg);
+    background-size: cover;
+ */
+       background-color: rgb(150, 133, 103);
+}
+.livro {
+    height: 150px;
+
+}
+.Titulo{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+   
+}
+.coffee {
+    height: 150px;
+}
+.button{
+    background-color: rgb(190, 181, 165);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-family: Snell Roundhand, cursive;
+}
+.input{
+    background-color: rgba(190, 181, 165, 0.486);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    
+}
